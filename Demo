@@ -1,147 +1,20 @@
-font-size:28px;
-box-shadow:0 5px 10px rgba(0,0,0,.3);
-}
-
-/* Bottom Navigation */
-
-.bottom-nav{
-position:fixed;
-bottom:0;
-left:0;
-width:100%;
-height:72px;
-background:#fff;
-display:flex;
-justify-content:space-around;
-align-items:center;
-box-shadow:0 -2px 8px rgba(0,0,0,.15);
-}
-
-.bottom-nav .item{
-text-align:center;
-color:#555;
-font-size:13px;
-}
-
-.bottom-nav i{
-font-size:24px;
-margin-bottom:4px;
-display:block;
-}
-
-.add-btn{
-width:65px;
-height:65px;
-background:#ff4d1c;
-border-radius:50%;
-display:flex;
-justify-content:center;
-align-items:center;
-color:#fff;
-font-size:32px;
-margin-top:-35px;
-border:5px solid #eef2f8;
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    background-color: #4A148C;
+    color: white;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding-top: 100px;
 }
 </style>
-
 </head>
 <body>
 
-<div class="header">
-<div class="logo">🔥 Alpha Topup</div>
-
-<div class="balance">
-<i class="fa-solid fa-wallet"></i> 15৳
-</div>
-
-<div class="profile">
-<img src="https://i.pravatar.cc/100" alt="">
-</div>
-</div>
-
-<h2 class="section-title">Special Offers</h2>
-
-<div class="grid">
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/5736b6/ffffff?text=SPIN">
-<p>Free Offer</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/5736b6/ffffff?text=AIRDROP">
-<p>ID Password</p>
-</div>
-
-</div>
-
-<h2 class="section-title">Top Up</h2>
-
-<div class="grid">
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=FF">
-<p>FF TopUp [BD]</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=PASS">
-<p>Level Up Pass</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=VIP">
-<p>Weekly Offer</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=LITE">
-<p>Weekly Lite</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=LIKE">
-<p>FF Like</p>
-</div>
-
-<div class="card">
-<img src="https://via.placeholder.com/150x100/673ab7/ffffff?text=SERVER">
-<p>Indonesia Server</p>
-</div>
-
-</div>
-
-<div class="call-btn">
-<i class="fa-solid fa-phone"></i>
-</div>
-
-<div class="bottom-nav">
-
-<div class="item">
-<i class="fa-solid fa-house"></i>
-Home
-</div>
-
-<div class="item">
-<i class="fa-solid fa-box"></i>
-Orders
-</div>
-
-<div class="add-btn">
-<i class="fa-solid fa-plus"></i>
-</div>
-
-<div class="item">
-<i class="fa-solid fa-ticket"></i>
-Codes
-</div>
-
-<div class="item">
-<i class="fa-solid fa-user"></i>
-Account
-</div>
-
-</div>
+<h1>Welcome to My Website</h1>
+<p>This website uses a unique deep purple background.</p>
 
 </body>
 </html>
