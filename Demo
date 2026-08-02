@@ -1,125 +1,27 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Website with Admin Panel</title>
+<section class="hero">
+    <div class="hero-content">
+        <h2>AI-Powered Creativity</h2>
+        <p>Create stunning images with artificial intelligence.</p>
+
+        <!-- Replace the src with your AI-generated image -->
+        <img src="images/ai-image.jpg"
+             alt="AI Generated Artwork"
+             class="hero-image">
+    </div>
+</section>
 
 <style>
-body{
-    font-family:Arial,sans-serif;
-    margin:0;
-    background:#f4f4f4;
-}
-
-header{
-    background:#222;
-    color:#fff;
-    padding:15px;
+.hero{
+    padding:60px 20px;
     text-align:center;
+    background:#f5f7fa;
 }
 
-.container{
-    padding:20px;
-}
-
-button{
-    padding:10px 15px;
-    cursor:pointer;
-}
-
-.admin-panel{
-    display:none;
-    position:fixed;
-    top:0;
-    right:0;
-    width:300px;
-    height:100%;
-    background:#333;
-    color:white;
-    padding:20px;
-    box-shadow:-5px 0 10px rgba(0,0,0,.3);
-}
-
-.admin-panel h2{
-    margin-top:0;
-}
-
-.admin-panel input,
-.admin-panel textarea{
+.hero-image{
     width:100%;
-    margin-bottom:10px;
-    padding:8px;
-}
-
-.close{
-    background:red;
-    color:white;
-    border:none;
-    padding:8px;
+    max-width:600px;
+    border-radius:15px;
+    margin-top:20px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
 }
 </style>
-</head>
-<body>
-
-<header>
-<h1 id="siteTitle">My Website</h1>
-</header>
-
-<div class="container">
-<p id="content">
-Welcome to my website!
-</p>
-
-<button onclick="loginAdmin()">Admin Login</button>
-</div>
-
-<div class="admin-panel" id="adminPanel">
-<h2>Admin Control Panel</h2>
-
-<label>Website Title</label>
-<input type="text" id="titleInput">
-
-<label>Content</label>
-<textarea id="contentInput" rows="5"></textarea>
-
-<button onclick="saveChanges()">Save Changes</button>
-<br><br>
-
-<button class="close" onclick="closePanel()">Close</button>
-</div>
-
-<script>
-function loginAdmin() {
-    let password = prompt("Enter Admin Password:");
-
-    if(password === "admin123"){
-        document.getElementById("adminPanel").style.display = "block";
-
-        document.getElementById("titleInput").value =
-            document.getElementById("siteTitle").innerText;
-
-        document.getElementById("contentInput").value =
-            document.getElementById("content").innerText;
-    } else {
-        alert("Wrong password!");
-    }
-}
-
-function saveChanges(){
-    document.getElementById("siteTitle").innerText =
-        document.getElementById("titleInput").value;
-
-    document.getElementById("content").innerText =
-        document.getElementById("contentInput").value;
-
-    alert("Changes Saved!");
-}
-
-function closePanel(){
-    document.getElementById("adminPanel").style.display = "none";
-}
-</script>
-
-</body>
-</html>
