@@ -1,14 +1,22 @@
-<div class="card">
-    <img src="https://postimg.cc/1nL1zwV7/free-offer.jpg" alt="Free Offer" class="card-img">
-    <h3>Free Offer</h3>
-</div>
+body {
+    background-color: orange;
+    color: white;
+}
 
-<div class="card">
-    <img src="images/id-password.jpg" alt="ID Password" class="card-img">
-    <h3>ID Password</h3>
-</div>
+a {
+    color: #ffcc80;
+}
 
-<div class="card">
-    <img src="images/daily-bonus.jpg" alt="Daily Bonus" class="card-img">
-    <h3>Daily Bonus</h3>
-</div>
+button {
+    background-color: #ff6600;
+    color: white;
+    border: none;
+}
+
+header, footer, nav {
+    background-color: #ff7a00;
+}
+
+section {
+    background-color: #ffa726;
+}
