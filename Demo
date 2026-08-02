@@ -1,27 +1,14 @@
-<section class="hero">
-    <div class="hero-content">
-        <h2>AI-Powered Creativity</h2>
-        <p>Create stunning images with artificial intelligence.</p>
+<div class="card">
+    <img src="https://postimg.cc/1nL1zwV7/free-offer.jpg" alt="Free Offer" class="card-img">
+    <h3>Free Offer</h3>
+</div>
 
-        <!-- Replace the src with your AI-generated image -->
-        <img src="images/ai-image.jpg"
-             alt="AI Generated Artwork"
-             class="hero-image">
-    </div>
-</section>
+<div class="card">
+    <img src="images/id-password.jpg" alt="ID Password" class="card-img">
+    <h3>ID Password</h3>
+</div>
 
-<style>
-.hero{
-    padding:60px 20px;
-    text-align:center;
-    background:#f5f7fa;
-}
-
-.hero-image{
-    width:100%;
-    max-width:600px;
-    border-radius:15px;
-    margin-top:20px;
-    box-shadow:0 8px 20px rgba(0,0,0,0.2);
-}
-</style>
+<div class="card">
+    <img src="images/daily-bonus.jpg" alt="Daily Bonus" class="card-img">
+    <h3>Daily Bonus</h3>
+</div>
